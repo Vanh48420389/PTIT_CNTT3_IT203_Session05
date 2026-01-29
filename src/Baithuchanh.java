@@ -55,10 +55,7 @@ public class Baithuchanh {
     }
 
     public static void add() {
-        if (current >= 100) {
-            System.out.println("Danh sach da day!");
-            return;
-        }
+
         while (true) {
             System.out.print("Nhap MSSV ");
             String mssv = sc.nextLine();
