@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public class Baithuchanh {
-    // 1. Mang biến ra ngoài để tất cả các hàm đều dùng được (Biến toàn cục)
-    static String[] arr = new String[100]; // Đổi int[] thành String[]
-    static int current = 0;                // Biến đếm số lượng sinh viên hiện tại
+    static String[] arr = new String[100];
+    static int current = 0;
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
