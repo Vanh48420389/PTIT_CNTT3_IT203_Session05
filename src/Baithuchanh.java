@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class Baithuchanh {
+    static String[] arr = new String[100];
+    static int current = 0;
+    static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-         String[] arr = new String[100];
-         int current = 0;
-         Scanner sc = new Scanner(System.in);
         int choice = 0;
         choice = Integer.parseInt(sc.nextLine());
 
